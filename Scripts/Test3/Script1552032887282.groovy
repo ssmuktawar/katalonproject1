@@ -17,6 +17,7 @@ WebUI.openBrowser(' http://lifecharger.org/')
 
 WebUI.click(findTestObject('logercyharg/Page_Life Charger   a new beginning/a_Home'))
 
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('logercyharg/Page_Life Charger   a new beginning/input_Search for_s'), 'Selenium')
 
